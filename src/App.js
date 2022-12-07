@@ -26,7 +26,7 @@ function App() {
     <>
       <Header />
       <div className="container-fluid">
-        <div className=" my-5 d-flex flex-column align-items-center">
+        <div className="my-5 d-flex flex-column align-items-center">
           <div id="inputText" class="mt-3 w-50 input-group">
             <input type="text" className="form-control" onChange={
               (e) => { setTemp(e.target.value) }}
